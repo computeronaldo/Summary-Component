@@ -1,0 +1,9 @@
+.main {
+    width: 60%;
+    margin: 5em auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
