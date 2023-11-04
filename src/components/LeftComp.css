@@ -1,0 +1,36 @@
+.container {
+    border-radius: 1em;
+    width: 55%;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.score-container {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 45%;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.actual-score {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.heading {
+    font-weight: 600;
+    color: hsl(224, 30%, 27%);
+}
+
+.v2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.info {
+    color: hsl(224, 30%, 27%);
+}
