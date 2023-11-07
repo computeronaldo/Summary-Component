@@ -1,5 +1,5 @@
 .main-right {
-    width: 50%;
+    width: 100%;
     margin: 1rem auto;
     display: flex;
     padding-right: 1rem;
@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    margin: 0.5rem;
 }
 
 .info-inner {
@@ -67,4 +68,10 @@
     background-color: hsl(224, 30%, 27%);
     border-radius: 2rem;
     padding: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        flex-direction: column;
+    }
 }

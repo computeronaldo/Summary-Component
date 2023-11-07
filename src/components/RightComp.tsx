@@ -5,17 +5,7 @@ import VisualIcon from "../assets/images/icon-visual.svg";
 
 import "./RightComp.css";
 
-type Data = {
-  category: string;
-  score: number;
-  icon: string;
-}[];
-
-type Props = {
-  scoresInfo: Data;
-};
-
-const RightComp = ({ scoresInfo }: Props) => {
+const RightComp = () => {
   return (
     <div className="main-right">
       <h3>Summary</h3>

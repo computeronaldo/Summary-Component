@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="main">
       <LeftComp scoresInfo={data} />
-      <RightComp scoresInfo={data} />
+      <RightComp />
     </div>
   );
 }
